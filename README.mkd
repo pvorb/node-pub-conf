@@ -5,7 +5,7 @@ for [pub](//github.com/pvorb/node-pub).
 
 ## Installation
 
-Create a new `.pub/` directory in you project by cloning or forking this
+Create a new `.pub/` directory in your project by cloning or forking this
 repository.
 
     git clone git://github.com/pvorb/node-pub-conf.git .pub
