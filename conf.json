@@ -1,5 +1,13 @@
 {
   "root": "../public",
+
+  "db": {
+    "host": "localhost",
+    "port": 27017,
+    "name": "myblog",
+    "collection": "index"
+  },
+
   "indexes": [
     {
       "pattern": "log\\/\\d{4}\\/\\d{2}\\/[^\\/]+",
