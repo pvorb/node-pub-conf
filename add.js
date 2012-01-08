@@ -21,7 +21,7 @@ var ext = {
 
 module.exports = function (files, opt) {
   // Load configuration file
-  var conf = fs.readFileSync(path.resolve(confdir, 'conf.js'), 'utf8');
+  var conf = fs.readFileSync(path.resolve(confdir, 'conf.json'), 'utf8');
   conf = JSON.parse(conf);
 
   if (files.length > 1)
