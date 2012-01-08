@@ -4,7 +4,6 @@ var fs = require('fs');
 var path = require('path');
 var readline = require('readline');
 
-var async = require('async');
 var props = require('props');
 var Index = require('Index');
 var isodate = require('isodate');
